@@ -34,7 +34,7 @@ mod_glimpse_data_server <- function(id, titanic){
     ))
 
     output$glimpse_result <- renderPrint({
-      #glimpse(titanic)
+      #glimpse(titanic) 
       eval(parse(text = input$glimpse_code))
     })
   })
