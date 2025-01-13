@@ -21,8 +21,6 @@ mod_glimpse_data_ui <- function(id) {
 
 #' glimpse_data Server Functions
 #'
-#' @noRd
-#' @export
 mod_glimpse_data_server <- function(id, titanic){
   moduleServer(id, function(input, output, session){
     ns <- session$ns
